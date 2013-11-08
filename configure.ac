@@ -15,7 +15,7 @@ m4_define([xfsm_version_major], [4])
 m4_define([xfsm_version_minor], [10])
 m4_define([xfsm_version_micro], [1])
 m4_define([xfsm_version_nano], []) dnl leave this empty to have no nano version
-m4_define([xfsm_version_build], [c0409d7])
+m4_define([xfsm_version_build], [e74e33c])
 m4_define([xfsm_version_tag], [])
 m4_define([xfsm_version], [xfsm_version_major().xfsm_version_minor().xfsm_version_micro()ifelse(xfsm_version_nano(), [], [], [.xfsm_version_nano()])ifelse(xfsm_version_tag(), [git], [xfsm_version_tag()-xfsm_version_build()], [xfsm_version_tag()])])
 
