@@ -1,2 +1,3 @@
 TODO:
-Bug fixes
+*Bug fixes
+*Automatically save session on shutdown from loss of power (check for conflicts with applications and saving session such as with cairo dock)
